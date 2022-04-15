@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik+Wet+Paint&display=swap');
+/* font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Wet Paint', cursive; */
+body{
+    background-color: #1D1D1D;
+    color: white;
+}
+
+.inicio{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+ align-items: center;   
+}
+
+.btn-inicio{
+    background-color: white;
+    /* color: red; */
+    /* width: 200px; */
+    padding: 10px;
+    height: 100px;
+    border-radius: 20px;
+    border: 0px solid #505F97;
+    font-size: 35px;
+    /* font-family: 'Rubik Moonrocks', cursive;*/
+    /* font-family: 'Rubik Wet Paint', cursive;  */
+    font-family: 'Rubik Glitch', cursive;
+    animation: warm 8s infinite;
+}
+
+.btn-inicio:hover{
+    animation: temblor 2s infinite;
+    cursor: pointer;
+}
+@keyframes temblor {
+    5%{transform: rotate(2deg);}
+    10%{transform: rotate(-2deg);}
+    15%{transform: rotate(2deg);}
+    20%{transform: rotate(0deg);}
+}
+@keyframes warm {
+    0%{background-color: rgb(255, 255, 255);}
+    100%{background-color: #EBEF0C;}
+}
+.navbar{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0400+38,ff0400+38,1d1d1d+98&0.86+55,0.85+99 */
+background: -moz-linear-gradient(top,  rgba(255,4,0,0.86) 38%, rgba(191,11,8,0.86) 55%, rgba(29,29,29,0.85) 98%, rgba(29,29,29,0.85) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,4,0,0.86) 38%,rgba(191,11,8,0.86) 55%,rgba(29,29,29,0.85) 98%,rgba(29,29,29,0.85) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,4,0,0.86) 38%,rgba(191,11,8,0.86) 55%,rgba(29,29,29,0.85) 98%,rgba(29,29,29,0.85) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbff0400', endColorstr='#d91d1d1d',GradientType=0 ); /* IE6-9 */
+
+    color: white;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.arrow{
+    width: 50px;
+    color: white;
+}
+.arrow-l{
+    width: 50px;
+    color: white;
+transform: rotate(180deg);
+}
+.arrow,.arrow-r:hover{
+cursor: pointer;
+}
+.persona{
+
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* width: 80%; */
+    background-color: #CBCBCB;
+    margin: 10px 15px;
+    border-radius: 10px;
+}
+
+.carnet{
+    color: #1D1D1D;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    border-radius: 30px;
+}
+.carnet img{
+    width: 80%;
+    padding: 20px;
+    object-fit: contain;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    border: 10px solid black ;
+    border-radius: 10px;
+}
+.descripcion{
+    padding: 30px 30px;
+}
+.atri{
+    display: flex;
+    align-items:center;
+
+}
