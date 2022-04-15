@@ -7,8 +7,8 @@ export const AppRouter = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='./integrantes/' element={<DashBoardRotes />} />
-                <Route path='./*' element={<LoginScreen />} />
+                <Route exact path='/integrantes/' element={<DashBoardRotes />} />
+                <Route exact path='/*' element={<LoginScreen />} />
             </Routes>
         </BrowserRouter>
     )
