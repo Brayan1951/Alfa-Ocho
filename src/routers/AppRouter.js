@@ -7,7 +7,7 @@ export const AppRouter = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/integrantes' element={<DashBoardRotes />} />
+                <Route path='/integrantes/' element={<DashBoardRotes />} />
                 <Route path='/*' element={<LoginScreen />} />
             </Routes>
         </BrowserRouter>
