@@ -10,7 +10,7 @@ export const PersonScreen = () => {
             <div className='carnet'>
                 <div className='img'>
 
-                    <img src={`assets/${'hacker'}.png`} />
+                    <img src={`./assets/${'hacker'}.png`} />
                 </div>
                 <div className='descripcion'>
                     <div className='atri'>

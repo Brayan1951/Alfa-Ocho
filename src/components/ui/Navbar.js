@@ -3,7 +3,7 @@ import { AuthContext } from '../auth/authContext'
 
 export const Navbar = () => {
 
-    const arrowPath = `assets/arrow.png`
+    const arrowPath = `./assets/arrow.png`
     const { user, dispatch } = useContext(AuthContext)
     // const { state } = user
     // console.log(user);
